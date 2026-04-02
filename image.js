@@ -5,6 +5,7 @@ let imgsEl = document.querySelectorAll("img");
 
 const prevEl = document.querySelector(".prev");
 prevEl.addEventListener("click", () => {
+    
     currentImage--;
     clearTimeout(timeout);
     updateImage();
