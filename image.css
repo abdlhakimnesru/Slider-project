@@ -20,9 +20,11 @@ body {
 
 .image-container {
     display: flex;
-    width: 1500px; /* 3 images * 500px each */
-    height: 300px;
-    transition: transform 0.5s ease-in-out; 
+    /* width: 1500px; /* 3 images * 500px each */
+    /* height: 300px;  */ 
+    transition: transform 0.5s ease-in-out;
+    
+    
 }
 .btn {
     position: absolute;
